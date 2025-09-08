@@ -10,11 +10,11 @@ class FizzBuzz {
 
         for (int i = 1; i < 100; i++) {
 
-            extracted(i);
+            doFizzBuzz(i);
         }
     }
 
-    private static void extracted(int i) {
+    private static void doFizzBuzz(int i) {
         // Find out which numbers divide i.
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
